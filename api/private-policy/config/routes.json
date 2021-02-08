@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/private-policy",
+      "handler": "private-policy.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/private-policy",
+      "handler": "private-policy.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/private-policy",
+      "handler": "private-policy.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

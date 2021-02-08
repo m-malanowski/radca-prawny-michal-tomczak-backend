@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "private_policies",
+  "info": {
+    "name": "private-policy"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
